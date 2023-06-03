@@ -35,6 +35,33 @@ Or
 
 <hr />
 
+```
+Post 2020 branch name - master changed to
+main
+mega
+mucho
+```
+
+#### See local branches using
+
+`git branch`
+
+#### To rename master to main, checkout master and run `git branch -m master main`.
+
+This will rename the master branch to main. If you are not currently on the master branch, you can use the checkout command to switch to it. For example, to switch to the master branch, you would use the following command:
+
+`git checkout master`
+
+Once you are on the master branch, you can use the `branch` command to rename it. For example, to rename the master branch to main, you would use the following command: (if you are in the master)
+
+`git branch -M main`
+
+#### Run following command to check
+
+`git status`
+
+<hr />
+
 ### Vim <i><sup>(editor)</sup></i>
 
 * To create a file - `touch file_name.extension`, or if you wanna create folder use `mkdir folder_name`
@@ -211,32 +238,5 @@ This will switch to the branch that was previously checked out. If you want to s
 ### # Just to see the changes of specific commit in terminal
 
 `git show <commit-id>`
-
-<hr />
-
-```
-Post 2020 branch name - master changed to
-main
-mega
-mucho
-```
-
-#### See local branches using
-
-`git branch`
-
-#### To rename master to main, checkout master and run `git branch -m master main`.
-
-This will rename the master branch to main. If you are not currently on the master branch, you can use the checkout command to switch to it. For example, to switch to the master branch, you would use the following command:
-
-`git checkout master`
-
-Once you are on the master branch, you can use the `branch` command to rename it. For example, to rename the master branch to main, you would use the following command: (if you are in the master)
-
-`git branch -M main`
-
-#### Run following command to check
-
-`git status`
 
 <hr />
