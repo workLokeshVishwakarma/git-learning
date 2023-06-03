@@ -125,3 +125,9 @@ When you wanna add some new files / changes into the recent commit or just wanna
     - `git log --graph --oneline --decorate`
     
 <hr />
+
+### # Revert back onto any old specific commit, If you sure to lose you commits, this will unstaged all those of your commits-changes | all commits right after your picked commit <i><sup>(commit-id)</sup></i>
+
+- `git revert <commit-id>`
+    
+<hr />
