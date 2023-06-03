@@ -134,8 +134,24 @@ When you wanna add some new files / changes into the recent commit or just wanna
 
 ### # Web-based VS code, for github repo's, weather it's your or someone else
 
-- If you are stuck at your grandma's house, having low-configuration or old computer that can't handle VS Code, and you don't have the internet speed to download it suppose, but now you can still edit files, commit your changes, and do much more using the github.dev web-based editor.
+If you are stuck at your grandma's house, having low-configuration or old computer that can't handle VS Code, and you don't have the internet speed to download it suppose, but now you can still edit files, commit your changes, and do much more using the github.dev web-based editor.
 
 - To use, simply log in to your GitHub account and open any repository that you want to work on. Then, press the `.` (dot) key to open the editor simply.
+
+<hr />
+
+### # To unstaged changes, that you’ve recently commit (unstaged current commit changes)
+ 
+`git reset HEAD^`
+
+<hr />
+
+### # Messed up your file? Restore it to the last commit with:
+
+`git restore <file_name>`
+
+This will restore the file to the state it was in at the last commit. If you want to restore the file to a specific commit, you can use the `-c` flag to specify the commit ID. For example, to restore the file to the commit with ID `1234567890`, you would use the following command:
+
+`git restore -c 1234567890 <file_name>`
 
 <hr />
