@@ -19,6 +19,22 @@
 
 <hr />
 
+#### # How to see remote upstream url
+
+`git ls-remote --get-url`
+Or
+`git config --get remote.origin.url`
+
+<i>URL_example - git@github.com:username/repo-name.git</i>
+
+#### # To edit / update origin->URL
+`git remote set-url origin <URL>`
+
+#### # To add origin->URL
+`git remote add origin <URL>`
+
+<hr />
+
 ### Vim <i><sup>(editor)</sup></i>
 
 * To create a file - `touch file_name.extension`, or if you wanna create folder use `mkdir folder_name`
