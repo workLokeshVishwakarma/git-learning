@@ -183,3 +183,17 @@ This will restore the file to the state it was in at the last commit. If you wan
 `git restore -c 1234567890 <file_name>`
 
 <hr />
+
+### # To create new branch
+
+`git branch new_branch_name`
+
+#### # To create a new branch and at the same time also wanna checkout into it
+
+`git checkout -b <new-branch-name>`
+
+#### # Or if you wanna delete the branch, first checkout to different branch and then use
+
+`git branch -D <branch-name>`
+ 
+<hr />
