@@ -197,3 +197,13 @@ This will restore the file to the state it was in at the last commit. If you wan
 `git branch -D <branch-name>`
  
 <hr />
+
+### # To go back to the last checked-out branch, use:
+
+`git checkout -`
+
+This will switch to the branch that was previously checked out. If you want to switch to a specific branch, you can specify the branch name after the `checkout` command. For example, to switch to the `master` branch, you would use the following command:
+
+`git checkout master`
+
+<hr />
