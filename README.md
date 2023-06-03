@@ -75,3 +75,45 @@ Telling `git` to add this new alias in your `--global` `config` file, and alias 
     So you can use same command to overwrite, correct / update that same 
     
     `git config --global alias.ac "commit -am"`
+
+- ### # Delete alias
+    Directly edit global git config file, so you can edit aliases, user details, and many more
+    
+    `git config --global --edit`
+
+    * BTW, We have one more direct option
+        
+        `git config --global --unset alias.ac`
+        
+<hr />
+
+### # Update more changes into previous commit or just edit / update commit message
+When you wanna add some new files / changes into the recent commit or just wanna edit last commit message
+
+-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
+
+- Editing only commit message
+
+    I'm making typo here `git ac "that's go cool"`
+
+- Now check correction
+
+    `git commit --amend -m "that's so cool"`
+
+-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
+
+- Now suppose, There's a case where you just wanna add, new files / changes in to your recent commit and don't wanna change the commit message, (update changes into your last commit)
+
+    `git add .` or `git add file_name.extension`
+
+    `git commit --amend --no-edit`
+
+-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
+
+- Or if you wanna add changes and wanna edit the message as well, then you can go with
+
+    <i>This will do, `git add .` && `git commit --amend -m "new message"`</i>
+    
+    `git commit --amend -am "new message"`
+    
+<hr />
