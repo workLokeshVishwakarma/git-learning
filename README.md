@@ -117,3 +117,11 @@ When you wanna add some new files / changes into the recent commit or just wanna
     `git commit --amend -am "new message"`
     
 <hr />
+
+### # BTW, We have some options to see logs as well
+
+- `git log`
+    - `git log --oneline`
+    - `git log --graph --oneline --decorate`
+    
+<hr />
