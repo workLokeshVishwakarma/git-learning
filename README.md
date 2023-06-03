@@ -7,6 +7,18 @@
 
 <hr />
 
+#### To get | global’s
+
+`git config --global --list`
+
+#### To set | globally
+
+`git config --global user.name "name"`
+
+`git config --global user.email "email"`
+
+<hr />
+
 ### Vim <i><sup>(editor)</sup></i>
 
 * To create a file - `touch file_name.extension`, or if you wanna create folder use `mkdir folder_name`
@@ -87,7 +99,7 @@ Telling `git` to add this new alias in your `--global` `config` file, and alias 
         
 <hr />
 
-### # Update more changes into previous commit or just edit / update commit message
+### # Update more changes into previous (recent) commit or just edit / update commit message
 When you wanna add some new files / changes into the recent commit or just wanna edit last commit message
 
 -x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
