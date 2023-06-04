@@ -66,7 +66,7 @@ Once you are on the master branch, you can use the `branch` command to rename it
 
 * To create a file - `touch file_name.extension`, or if you wanna create folder use `mkdir folder_name`
  
-    - `touch index.html`
+    - `touch index.html`es
     - `mkdir src`
 
 * Then to edit a file, use `vim file_name.extension`
@@ -208,6 +208,11 @@ If you are stuck at your grandma's house, having low-configuration or old comput
 This will restore the file to the state it was in at the last commit. If you want to restore the file to a specific commit, you can use the `-c` flag to specify the commit ID. For example, to restore the file to the commit with ID `1234567890`, you would use the following command:
 
 `git restore -c 1234567890 <file_name>`
+
+-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
+
+##### - Or Wanna align them with the remote repo, use `git fetch origin` and `git reset --hard origin/master`. This will discard all your local changes and align your branch with same as remote repo/branch.
+- ##### Or If you still seeing some untracked, build or meaningless files, and you wanna remove them, use `git clean -df`.
 
 <hr />
 
