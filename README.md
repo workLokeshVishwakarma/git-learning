@@ -240,3 +240,42 @@ This will switch to the branch that was previously checked out. If you want to s
 `git show <commit-id>`
 
 <hr />
+
+### # Stash, save changes in temp.
+
+If you are working on a feature branch and need to switch to a bugfix branch, you can use `git stash` to save your changes temporarily. Once you are done with the bugfix, you can reapply your stash with `git stash pop`
+
+#### - Save the current changes to a stash
+- `git stash`
+
+<i>Stash name and message are used to identify stash. Message can also provide more info about stash.</i>
+
+#### - With the name
+- `git stash save my_stash`
+
+#### - With the message
+- `git stash -m "This is a stash with spaces in the name"`
+
+#### # Delete stash
+##### - Delete a single stash
+- `git stash drop` or you can specify index as well `git stash drop <index_no>`
+
+##### - Delete all of the stashes in the current repository.
+- `git stash clear`
+
+#### # Get your changes back
+##### - Get your changes from stash and remove it from the stash list
+- `git stash pop` or you can specify index as well `git stash pop —index <index_no>`
+
+##### - Get your changes but leave it in the stash list
+- `git stash apply` or you can specify index as well `git stash apply <index_no>`
+
+-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
+
+##### To see the list of saved stashes, `git stash list`
+
+##### To see the changes of any specify stash, `git stash show` or you can specify index as well `git stash show <index_no>`
+
+##### To create a new branch out of any specify stash directly, `git stash branch <branch_name> <index_no>`
+
+<hr />
