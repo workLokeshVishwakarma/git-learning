@@ -192,6 +192,29 @@ When you wanna add some new files / changes into the recent commit or just wanna
 - Finally, continue the rebase using `git rebase --continue`.
 - <i>If you want to abort the process, use `git rebase --abort`.</i>
 
+```
+Note: Any commits that come after the one you are editing will have their commit IDs changed.
+```
+
+<hr />
+
+### # Update any specfic old commit->message
+
+- Use `git rebase -i HEAD~<number of previous commits>` to edit the commit message.
+- Replace `pick` with `reword` or `r` for the commit you want to edit.
+- Then save the file and exit the editor, hit `ESC` then type `:wq` and `enter`
+
+```
+# For example, to update the second last commit message, use `git rebase -i HEAD~3`.
+# This will open Vim, where you can replace the `pick` with `reword` for the second last commit.
+# Save the file and exit Vim.
+# The commit message will now be updated.
+```
+
+```
+Note: Any commits that come after the one you are editing will have their commit IDs changed.
+```
+
 <hr />
 
 ### # BTW, We have some options to see logs as well
