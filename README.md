@@ -345,3 +345,20 @@ If you are working on a feature branch and need to switch to a bugfix branch, yo
 ```
 
 <hr />
+
+### # Reorder commits
+
+- Use `git rebase -i HEAD~<number of previous commits>` to reorder the commits, as you hit enter, you'll gonna see Vim editor.
+- In the editor, simply change the order of the commits.
+- Save the file and exit the editor.
+
+-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
+
+- #### For example, to reorder the last three commits, use `git rebase -i HEAD~3`.
+- #### This will open Vim, where you can change the order of the last three commits.
+- #### Line start's with `#` means comments, So you need to reorder by changing the order of the lines which starts from `pick`.
+- #### Now just save the file and exit Vim.
+
+#### <i>The commits will now be reordered now.</i>
+
+<hr />
