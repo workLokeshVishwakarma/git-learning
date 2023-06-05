@@ -328,3 +328,20 @@ If you are working on a feature branch and need to switch to a bugfix branch, yo
 ##### To create a new branch out of any specify stash directly, `git stash branch <branch_name> <index_no>`
 
 <hr />
+
+### # Squash multiple commits into a single commit
+
+- Use `git rebase -i HEAD~<number of previous commits>` to squash the commits.
+- Replace `pick` with `squash` for the commits you want to squash.
+- Save the file and exit the editor.
+
+```
+# For example, to squash the last three commits, and merge into one, use `git rebase -i HEAD~3`.
+# This will open Vim, where you can replace the `pick` with `squash` for the last two commits.
+# Save the file and exit Vim.
+# Again another Vim will open, here you can specify a single commit message and comment other with `#`
+# Now Final save the file and exit Vim.
+# The commits will now be squashed into a single commit.
+```
+
+<hr />
