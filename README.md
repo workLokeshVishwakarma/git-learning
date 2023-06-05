@@ -173,6 +173,27 @@ When you wanna add some new files / changes into the recent commit or just wanna
     
 <hr />
 
+### # Edit and add new files / changes into any old commit
+
+- First, stash your changes that you want to add to that specific commit.
+    - `git add .` or `git add <path_to_file/file_name> ...<file's_name>`
+    - `git stash`
+
+- Use `git rebase -i HEAD~<number of previous commits>` to edit the commit, Ex - `git rebase -i HEAD~3`.
+- A file will open, Replace `pick` with `edit` for the commit you want to edit.
+- Then save the file and exit the editor, hit `ESC` then type `:wq` and `enter`
+
+- Now, pop the stash using `git stash pop`.
+
+- Amend the commit using `git commit --amend`.
+    - ##### You can use the `--no-edit` flag if you don't want to change the commit message.
+    - ##### You can also use the `-m "new message"` flag to specify a new commit message.
+
+- Finally, continue the rebase using `git rebase --continue`.
+- <i>If you want to abort the process, use `git rebase --abort`.</i>
+
+<hr />
+
 ### # BTW, We have some options to see logs as well
 
 - `git log`
