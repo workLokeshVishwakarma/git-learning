@@ -219,7 +219,7 @@ Note: Any commits that come after the one you are editing will have their commit
 
 ### # BTW, We have some options to see logs as well
 
-- `git log`
+- `git log` or `git log <branch_name>`
     - `git log --oneline`
     - `git log --graph --oneline --decorate`
     
