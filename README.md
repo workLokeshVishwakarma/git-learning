@@ -396,13 +396,13 @@ Just Wanna pick and apply any specific commit of any branch and wanna merge that
 <hr />
 
 ### # git bisect
-To find a bug commit, if your app is not working and it was working fine a few commits back, you can traverse your commits one by one (if you want) and check the good one (the commit in which your app was working). As you track back, as soon as you find your app starts working, you can mark that commit as good and copy the commit ID. You can then revert to that commit or copy that commit code, if you want.
+To find a bug commit, if your app is not working and it was working fine a few commits back, you can traverse back your commits one by one (if you want) and check the good one (the commit in which your app was working). As you track back, as soon as you find your app starts working, you can mark that commit as good and copy the commit ID. You can then revert to that commit or copy that commit code, if you want.
 
 ##### `git bisect start`, To start bisecting / traversing
 
-##### To mark the current commit as bad, run `git bisect bad`, Now Git will check out to the next commit.
+##### First To mark the current commit as bad, run `git bisect bad`, Now Git will check out to the next commit.
 
-##### If you are confident that your app was working in a previous commit, you can use git log to find the commit ID and then run `git bisect good <commit-id>`. Git will then check out that commit and you can test your app to see if the bug is still present.
+##### If you are confident that your app was working in some previous commit, you can use git log to find the commit ID and then run `git bisect good <commit-id>`. Git will then check out that commit and you can test your app to see if the bug is still present.
 
 ##### If you still haven't found a commit where your app was working, you can mark comments also as `bad` by running `git bisect bad`. Git will then automatically check out next commits for you
 
@@ -412,6 +412,6 @@ To find a bug commit, if your app is not working and it was working fine a few c
 
 -x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
 
-<i><b>Now that you have the good commit ID, you can see the changes of that commit with the `git show <commit-id>` command. You can then see what mistake you made after that commit and copy the changes from the previous commit and add them to your current commit. Alternatively, you can revert back to the good commit by running the `git revert <commit-id>` command. This will open an editor where you can enter a commit message for the revert commit. If you want to use the default commit message, press `esc` and type `:wq` and press enter.</b></i>
+<i><b>Now that you have the good commit ID, you can see the changes of that commit with the `git show <commit-id>` command. You can then see what mistake you made after that commit and copy the changes from the previous commit and add them to your current commit. Alternatively, you can revert back to the good commit by running the `git revert <commit-id>` command. This will open an editor where you can enter a commit message for the revert commit. If you want you can go with the default commit message as well, so after completing now press `esc` and type `:wq` and press enter.</b></i>
 
 <hr />
