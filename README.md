@@ -376,3 +376,14 @@ If you are working on a feature branch and need to switch to a bugfix branch, yo
 `git reset` you can use to undo changes from staging area `git add <...>` area get back in modified state, <b><i>This is a good option if you want to undo changes that you have staged for commit.</b></i>
 
 <hr />
+
+### # Delete any old specific commit
+
+- Use the `git rebase -i` command to edit the commit history.
+    This will open an editor, where you will see a list of all the commits in your history.
+    
+- Change the `pick` action to `drop` for the commit you want to delete. Save the file and exit the editor.
+
+- Run the `git rebase --continue` command to finalize the changes. This will delete the commit from your history.
+
+<hr />
