@@ -362,3 +362,17 @@ If you are working on a feature branch and need to switch to a bugfix branch, yo
 #### <i>The commits will now be reordered now.</i>
 
 <hr />
+
+### # Delete your current commit and get HEAD back onto the previous one
+
+- `git reset --hard HEAD~1` will delete the current commit and reset your working directory and index to the state of the previous commit. <b><i>This is the most destructive option, as it will lose all uncommitted changes.</i></b>
+
+- `git reset --soft HEAD~1` will remove the current commit from history and unstaged your that commit files / changes, also keep your working directory and index in the state they were in before you committed. <b><i>This is a good option if you want to undo a commit but keep your changes.</b></i>
+
+-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-x-
+
+#### To unstage changes
+
+`git reset` you can use to undo changes from staging area `git add <...>` area get back in modified state, <b><i>This is a good option if you want to undo changes that you have staged for commit.</b></i>
+
+<hr />
