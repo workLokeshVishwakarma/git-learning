@@ -9,7 +9,7 @@
 
 #### To get | global’s
 
-`git config --global --list`
+`git config -l` or `git config --global --list`
 
 #### To set | globally
 
