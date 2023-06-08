@@ -245,6 +245,15 @@ If you are stuck at your grandma's house, having low-configuration or old comput
 
 <hr />
 
+### # To unstaged `git add .` changes
+#### To unstaged changes, that you’ve recently added to staging area `git add .` (and now suppose you want some files back)
+
+##### You can specify a single file `file_name.extension` name with its extension, or multiple `file_name.extension file_name.extension ...` file names separated by spaces. To unstage all changes or files, type a dot (`.`) instead of a file name.
+
+`git restore --staged file-to-unstage.txt` or `git reset file-to-unstage.txt`
+
+<hr />
+
 ### # Messed up your file? Restore it to the last commit with:
 
 `git restore <file_name>`
