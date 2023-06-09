@@ -19,6 +19,12 @@
 
 <hr />
 
+### # Start with
+- clone existing repo `git clone <URL>`
+- Or create a new one `git init` or `git init <path/directory>`
+
+<hr />
+
 #### # How to see remote upstream url
 
 `git ls-remote --get-url`
