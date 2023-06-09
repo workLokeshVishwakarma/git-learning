@@ -115,7 +115,7 @@ Now finally commiting changes moving from staging area to snapshot `.git` -> `lo
 ### # There's one Shorthand as well
 This will gonna work for only those files, which are under `.git` tracking, will not gonna work for files which are showing in `U` or untracked, for those file you have to use `git add .` or `git add fileName.extension` first time / (once) at least manually, and then from the next time `-am` will properly gonna automate your work for you.
 
-`git commit -am "This is, so time saving"`
+`git commit -am "This is, so time saving"` or `git commit -a -m "message"`
 
 <hr />
 
