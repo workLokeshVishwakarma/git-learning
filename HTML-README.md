@@ -10,6 +10,10 @@
 - area
 - dfn
 - wbr
+- picture
+- video
+- audio
+- source
 
 <hr />
 
@@ -67,3 +71,10 @@
 
 <hr />
 
+![picture-video-audio-source](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/09121bf4-f44f-48ff-b6b7-0bc876d6f6ba)
+
+![picture-video-audio-source-output-1](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/e2bb9877-3962-42ef-9b08-f9daa9060e61)
+
+![picture-video-audio-source-output-2](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/27deb0c9-e065-46c6-b2e0-9d73cfa51ee7)
+
+<hr />
