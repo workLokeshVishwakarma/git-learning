@@ -27,6 +27,7 @@
 - [caption](#tabel-caption-tr-th-td-caption-colgroup-col)
 - [colgroup-col](#tabel-caption-tr-th-td-caption-colgroup-col)
 - [cite](#cite)
+- [dialog](#dialog)
 
 <hr />
 
@@ -184,3 +185,10 @@
 
 <hr />
 
+#### dialog
+
+![dialog-code](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/67f39c6d-553a-4803-ad48-210766407c10)
+
+![dialog-output](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/c8197c12-120f-4d54-b31b-d0aeba02571e)
+
+<hr />
