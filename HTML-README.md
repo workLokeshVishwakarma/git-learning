@@ -29,6 +29,10 @@
 - [cite](#cite)
 - [dialog](#dialog)
 - [embed](#embed)
+- [base](#base)
+- [data](#data)
+- [ruby-rt-rp](#ruby-rt-rp)
+- [bdi](#bdi)
 
 <hr />
 
@@ -199,5 +203,41 @@
 ![embed-code](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/11ac763e-e703-41cd-814a-4c3e1cb413a3)
 
 ![embed-output](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/46df6941-bbb5-4189-926d-6c5dd7d24136)
+
+<hr />
+
+#### base
+
+![base-code-1](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/0677dbb1-12b9-4b37-a84e-c79c55cb621a)
+
+![base-output-1](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/3bdaa788-c4f6-480c-8cb3-387edb59b438)
+
+![base-code-2](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/55a4352c-b327-40a6-b0b1-a7b6cc1ded35)
+
+![base-output-2](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/8d6aaf1a-aaf5-48b5-bc63-e6ff4a546855)
+
+<hr />
+
+#### data
+
+![data-code](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/68835454-2752-4fb8-b45e-9681d735143e)
+
+![data-output](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/39390964-abac-4690-9e71-acc3ccc493f7)
+
+<hr />
+
+#### ruby-rt-rp
+
+![ruby-rt-rp-code](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/4f6a2158-89dc-4365-939c-3cf5f9d26380)
+
+![ruby-rt-rp-output](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/17f49392-8323-4941-aefb-d305004b5917)
+
+<hr />
+
+#### bdi
+
+![bdi-code](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/09b719b5-6b57-4ded-8726-cfe578a3c014)
+
+![bdi-output](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/faa005c2-102c-44f6-850f-cbb2f9abe048)
 
 <hr />
