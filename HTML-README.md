@@ -23,6 +23,10 @@
 - [del](#del-ins)
 - [ins](#del-ins)
 - [em](#em)
+- [tabel-tr-th-td](#tabel-caption-tr-th-td-caption-colgroup-col)
+- [caption](#tabel-caption-tr-th-td-caption-colgroup-col)
+- [colgroup-col](#tabel-caption-tr-th-td-caption-colgroup-col)
+- [cite](#cite)
 
 <hr />
 
@@ -164,4 +168,19 @@
 
 <hr />
 
+#### tabel-caption-tr-th-td-caption-colgroup-col
+
+![tabel-caption-tr-th-td-caption-colgroup-col-code](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/5b903d14-08e4-4299-8dae-e9db9fa1a689)
+
+![tabel-caption-tr-th-td-caption-colgroup-col-output](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/8eeaa9e9-6ec6-440b-b1ba-dcee0b0dbd7d)
+
+<hr />
+
+#### cite
+
+![cite-code](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/269277de-0b2b-42e3-8726-3afcd1029bf2)
+
+![cite-output](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/eb94a4dc-1197-4bea-9ef3-1861ca05cc47)
+
+<hr />
 
