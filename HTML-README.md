@@ -16,6 +16,12 @@
 - source
 - samp
 - var
+- optgroup
+- object
+- param
+- kbd
+- del
+- ins
 
 <hr />
 
@@ -92,3 +98,33 @@
 ![var-output](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/641f4494-0eda-43f4-91e1-55ab8e9409e3)
 
 <hr />
+
+![optgroup](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/f7672818-a4bb-4b2e-9277-57fc74fca886)
+
+![optgroup-output-1](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/7c6f40fa-ca7a-40dd-b3c5-877e0806c835)
+
+![optgroup-output-2](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/770cdad3-2d18-4f96-9615-fee78d8050e4)
+
+<hr />
+
+![object-param](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/b5b013b4-4943-489a-9383-9077e8b3d22f)
+
+![object-param-output](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/8943bd09-3aab-42dc-b630-dde4b52a52e6)
+
+<hr />
+
+![kbd](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/ceeb988a-52dc-4610-b87a-eacc2817f87d)
+
+![kbd-output](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/368e71c4-ac56-489f-bb85-162c0879fe72)
+
+<hr />
+
+![del-ins](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/bd728e8a-6075-41c0-8ff8-5bc3736e7de8)
+
+![del-ins-output](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/29039a89-a24e-4d8d-88c4-f5611aa932cd)
+
+<hr />
+
+[click on this link](#my-multi-word-header)
+
+### My Multi Word Header
