@@ -14,6 +14,8 @@
 - video
 - audio
 - source
+- samp
+- var
 
 <hr />
 
@@ -76,5 +78,17 @@
 ![picture-video-audio-source-output-1](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/e2bb9877-3962-42ef-9b08-f9daa9060e61)
 
 ![picture-video-audio-source-output-2](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/27deb0c9-e065-46c6-b2e0-9d73cfa51ee7)
+
+<hr />
+
+![samp](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/ec0a0306-771b-4493-9aaa-effc8a80ba75)
+
+![samp-output](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/d02d18db-e508-40c1-a751-fb99b7988fd4)
+
+<hr />
+
+![var](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/b9c15989-5725-44c0-9731-3a7ff440062f)
+
+![var-output](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/641f4494-0eda-43f4-91e1-55ab8e9409e3)
 
 <hr />
