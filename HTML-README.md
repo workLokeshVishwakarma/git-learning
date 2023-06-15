@@ -108,11 +108,13 @@
 
 #### picture-video-audio-source
 
-![picture-video-audio-source-code](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/09121bf4-f44f-48ff-b6b7-0bc876d6f6ba)
+![picture-video-audio-source-code](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/56e57894-79f9-4352-982e-c10e4e8095d5)
 
-![picture-video-audio-source-output-1](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/e2bb9877-3962-42ef-9b08-f9daa9060e61)
+![picture-video-audio-source-output](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/1c6ff3e0-ba12-4399-bc18-6378a0a12d76)
 
-![picture-video-audio-source-output-2](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/27deb0c9-e065-46c6-b2e0-9d73cfa51ee7)
+![picture-video-audio-source-output](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/ed6dea52-13a0-460c-b2f7-e9f9a1409931)
+
+![picture-video-audio-source-output](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/3de1711b-37b9-4ab6-98a7-5b94c64d30f8)
 
 <hr />
 
