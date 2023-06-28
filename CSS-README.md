@@ -17,7 +17,7 @@
 <hr />
 
 ### `scroll-snap-type` and `scroll-snap-align`
- - Based on scroll element scrolled-percentage, auto Snap to the Center
+ - Based on scroll element scrolled-percentage, auto Snap to the Center, just like any other reels app
 
 ![Screenshot 2023-06-28 at 11 33 12 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/286a5bf5-790c-4c5a-811b-bb44e848fbf2)
 
