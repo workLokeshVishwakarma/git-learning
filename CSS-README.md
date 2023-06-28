@@ -15,3 +15,14 @@
 ![Screenshot 2023-06-28 at 3 27 31 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/3a3f0c85-e235-4bbf-b2bd-855e4b8c4ba6)
 
 <hr />
+
+### `scroll-snap-type` and `scroll-snap-align`
+ - Based on scroll element scrolled-percentage, auto Snap to the Center
+
+![Screenshot 2023-06-28 at 11 33 12 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/286a5bf5-790c-4c5a-811b-bb44e848fbf2)
+
+![Screenshot 2023-06-28 at 11 34 06 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/416a855d-febb-4ea5-8422-126701d439f7)
+
+![Screenshot 2023-06-28 at 11 40 10 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/e98d93c1-4b87-4bb7-8b42-846f92c732ad)
+
+<hr />
