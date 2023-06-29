@@ -95,3 +95,16 @@
  - ![Screenshot 2023-06-29 at 1 30 01 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/16b93615-3a98-45cd-95a1-5aa1f9f51243)
 
 <hr />
+
+## `min & max` function, shorthand of `width + min-width` and `width + max-width`
+
+- ![Screenshot 2023-06-29 at 2 35 51 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/476e09a1-67b7-44e2-8fc3-399379af6805)
+
+- this will choose min out of both based of screen-size (in realtime)
+  ```
+   /* width: 8%;
+   min-width: 73px; */
+   width: min(8%, 73px);
+  ```
+
+<hr />
