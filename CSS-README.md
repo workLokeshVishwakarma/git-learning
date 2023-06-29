@@ -72,3 +72,16 @@
  - ![Screenshot 2023-06-29 at 12 16 24 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/478d851f-7b88-4247-9283-ae497b954423)
 
 <hr />
+
+## CSS advance selectors
+
+- `>` use to select all direct child elements
+- `+` use to select immediate sibling element
+- `:has` use to conditionally select element which has some (conditional-child-element), use to apply css on that parent
+- and `:is` use to select multiple elements, (many childs), shorthand (as shown bellow)
+
+    - ![Screenshot 2023-06-29 at 1 21 27 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/b154f9e8-46a9-4e94-9377-5ab12138bb92)
+
+    - ![Screenshot 2023-06-29 at 1 22 16 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/9d64debb-ed0b-4bdc-985b-32ac4cf058bc)
+
+<hr />
