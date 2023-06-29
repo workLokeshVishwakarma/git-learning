@@ -26,3 +26,41 @@
 ![Screenshot 2023-06-28 at 11 40 10 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/e98d93c1-4b87-4bb7-8b42-846f92c732ad)
 
 <hr />
+
+## `display: block | inline | inline-block | flex | inline-flex`
+
+ - `display: block;` takes complete (block), full width, even you explicitly provide width to it
+
+    - ![Screenshot 2023-06-29 at 11 25 54 AM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/2eac26fa-0f79-41a0-a7c1-5279e8d948f7)
+
+    - ![Screenshot 2023-06-29 at 11 25 44 AM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/cc7009c7-2f34-46d5-a4c7-6994b701372b)
+
+- `display: inline;` takes width as per content height-width init, and other rest elements placed side by side, but we can’t provide height-width explicitly to them
+
+    - ![Screenshot 2023-06-29 at 11 31 25 AM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/1a4dfbba-1d9b-4fbb-bdca-49c563077ca1)
+
+    - ![Screenshot 2023-06-29 at 11 31 44 AM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/6c0d3b58-ff65-4e4b-8c7b-882f52c4d91b)
+
+ - `display: inline-block;` act as inline (elements side by side) but also takes height-width explicitly
+
+    - ![Screenshot 2023-06-29 at 11 36 14 AM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/45813bb0-a2f0-4444-ae26-3aff37e909b2)
+
+    - ![Screenshot 2023-06-29 at 11 36 36 AM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/550e6665-6748-4450-89f8-5b8236f24e33)
+
+ - `display: flex;` makes container/parent flexBox and all Childs flex-items, side by side elements, items act as inline-block, and container takes full width, container width (taking full width/block concept) act same as display: block
+
+     - ![Screenshot 2023-06-29 at 11 42 55 AM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/cf4bf884-ccf7-40bc-ba01-50ecbafacf21)
+  
+     - ![Screenshot 2023-06-29 at 11 43 22 AM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/10483b60-3c50-4467-bf3d-9b6deb8e6d8a)
+
+ - `display: inline-flex;` complete act as flexBox container but only difference is, the container act as inline-block, not takes will block width, only takes as per content init
+
+     - ![Screenshot 2023-06-29 at 11 47 54 AM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/355951f0-159c-494a-836c-09c4385c7ab4)
+  
+     - ![Screenshot 2023-06-29 at 11 47 34 AM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/f23b89d8-ce90-4d50-be8a-7577f640b850)
+
+     - ![Screenshot 2023-06-29 at 11 48 56 AM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/ce2a5369-3606-4bfb-9d75-fae4275245ab)
+
+     -  ![Screenshot 2023-06-29 at 11 49 09 AM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/4889729e-699d-4913-a96f-24130089f384)
+
+<hr />
