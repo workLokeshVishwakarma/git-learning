@@ -64,3 +64,11 @@
      -  ![Screenshot 2023-06-29 at 11 49 09 AM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/4889729e-699d-4913-a96f-24130089f384)
 
 <hr />
+
+## CSS logical properties, `margin-inline, margin-block, padding-inline, padding-block, border-block, border-inline`
+
+ - ![Screenshot 2023-06-29 at 12 15 37 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/97210dc4-699a-4be1-b79d-c3246654cdb3)
+
+ - ![Screenshot 2023-06-29 at 12 16 24 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/478d851f-7b88-4247-9283-ae497b954423)
+
+<hr />
