@@ -108,3 +108,15 @@
   ```
 
 <hr />
+
+## `writing-mode`, `text-orientation` and `direction`
+
+ - ![Screenshot 2023-06-29 at 7 51 25 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/5d4f1b9f-3e79-47db-99d1-fd31a90981b0)
+
+ - ![Screenshot 2023-06-29 at 7 51 35 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/93609778-0fc8-4aed-a5ab-13b4a59a27b1)
+
+ - ![Screenshot 2023-06-29 at 8 36 56 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/7dfab254-53c2-4e04-a949-9b0caeb3c3ad)
+
+ - ![Screenshot 2023-06-29 at 8 37 19 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/5a506ff9-c552-4642-9606-d7212de1c5c6)
+
+<hr />
