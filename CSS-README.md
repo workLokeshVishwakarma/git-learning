@@ -1,3 +1,13 @@
+- [inset](#inset)
+- [clamp-function](#clamp-function)
+- [scroll-snap-type-and-scroll-snap-align](#scroll-snap-type-and-scroll-snap-align)
+- [display-block--inline--inline-block--flex--inline-flex](#display-block--inline--inline-block--flex--inline-flex)
+- [css-logical-properties](#css-logical-properties)
+- [css-advance-selectors--pseudo-classes](#css-advance-selectors--pseudo-classes)
+- [line-clamp](#line-clamp)
+- [min--max](#min--max)
+- [writing-mode-text-orientation-and-direction](#writing-mode-text-orientation-and-direction)
+
 ### `inset`
  - Without explicitly providing height and width to .child - achieved same work using `inset` -  shorthand of [top, right, bottom, left]
 
@@ -65,7 +75,9 @@
 
 <hr />
 
-## CSS logical properties, `margin-inline, margin-block, padding-inline, padding-block, border-block, border-inline`
+## CSS logical properties
+
+- `margin-inline, margin-block, padding-inline, padding-block, border-block, border-inline`
 
 ### Very helpfull when working with directions, instead of providing padding-left use padding-inline-start, this will auto apply padding-left no metter what text directions we're using (still work, no metter, we chaned the direction), hard to achieve this with using padding-left direct.
 
@@ -75,12 +87,15 @@
 
 <hr />
 
-## CSS advance selectors
+## CSS advance selectors + PSEUDO-classes
 
 - `>` use to select all direct child elements
+ 
 - `+` use to select immediate sibling element
-- `:has` use to conditionally select element which has some (conditional-child-element), use to apply css on that parent
-- and `:is` use to select multiple elements, (many childs), shorthand (as shown bellow)
+ 
+- PSEUDO-classes
+    - `:has` use to conditionally select element which has some (conditional-child-element), use to apply css on that parent
+    - and `:is` use to select multiple elements, (many childs), shorthand (as shown bellow)
 
     - ![Screenshot 2023-06-29 at 1 21 27 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/b154f9e8-46a9-4e94-9377-5ab12138bb92)
 
@@ -98,7 +113,9 @@
 
 <hr />
 
-## `min & max` function, shorthand of `width + min-width` and `width + max-width`
+## `min & max`
+
+- function, shorthand of `width + min-width` and `width + max-width`
 
 - ![Screenshot 2023-06-29 at 2 35 51 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/476e09a1-67b7-44e2-8fc3-399379af6805)
 
