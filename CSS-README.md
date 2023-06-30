@@ -9,6 +9,7 @@
 - [writing-mode-text-orientation-and-direction](#writing-mode-text-orientation-and-direction)
 - [typography](#Typography)
 - [color-mix-function-and-nested-css](#color-mix-function-and-nested-css)
+- [first-letter-pesudo-element](#first-letter-pesudo-element)
 
 <hr />
 
@@ -171,5 +172,13 @@
 
   - ![Screenshot 2023-06-30 at 6 53 56 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/d1b1c647-fd8f-433e-af0f-3d70806b8efe)
   - ![Screenshot 2023-06-30 at 6 54 38 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/d5c0b268-b999-42cf-afba-6308ae4f3a09)
+
+<hr />
+
+## `::first-letter` pesudo element
+
+ - ![Screenshot 2023-06-30 at 7 11 53 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/ae2fa379-f38b-4427-9fde-536c684c91cb)
+
+ - ![Screenshot 2023-06-30 at 7 12 07 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/e27e8970-2a7d-427b-86a3-6702529c6050)
 
 <hr />
