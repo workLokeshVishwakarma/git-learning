@@ -7,7 +7,8 @@
 - [line-clamp](#line-clamp)
 - [min--max](#min--max)
 - [writing-mode-text-orientation-and-direction](#writing-mode-text-orientation-and-direction)
-- [Typography](#Typography)
+- [typography](#Typography)
+- [color-mix-function-and-nested-css](#color-mix-function-and-nested-css)
 
 <hr />
 
@@ -163,5 +164,12 @@
  - [ ol / ul ] - li
    - ![Screenshot 2023-06-30 at 4 50 56 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/1451d242-4346-40a8-86df-1c5fbe9dc825)
    - aligh text to text | or :: marker to text | (object to object - rule of thumb)
+
+<hr />
+
+## `color-mix` function and nested css
+
+  - ![Screenshot 2023-06-30 at 6 53 56 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/d1b1c647-fd8f-433e-af0f-3d70806b8efe)
+  - ![Screenshot 2023-06-30 at 6 54 38 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/d5c0b268-b999-42cf-afba-6308ae4f3a09)
 
 <hr />
