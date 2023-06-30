@@ -162,6 +162,6 @@
 
  - [ ol / ul ] - li
    - ![Screenshot 2023-06-30 at 4 50 56 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/1451d242-4346-40a8-86df-1c5fbe9dc825)
-   - aligh text to text | or :: markerto text | (object to object - rule of thumb)
+   - aligh text to text | or :: marker to text | (object to object - rule of thumb)
 
 <hr />
