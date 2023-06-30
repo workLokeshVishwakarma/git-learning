@@ -8,6 +8,8 @@
 - [min--max](#min--max)
 - [writing-mode-text-orientation-and-direction](#writing-mode-text-orientation-and-direction)
 
+<hr />
+
 ### `inset`
  - Without explicitly providing height and width to .child - achieved same work using `inset` -  shorthand of [top, right, bottom, left]
 
