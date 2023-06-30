@@ -7,6 +7,7 @@
 - [line-clamp](#line-clamp)
 - [min--max](#min--max)
 - [writing-mode-text-orientation-and-direction](#writing-mode-text-orientation-and-direction)
+- [Typography](#Typography)
 
 <hr />
 
@@ -141,3 +142,19 @@
  - ![Screenshot 2023-06-29 at 8 37 19 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/5a506ff9-c552-4642-9606-d7212de1c5c6)
 
 <hr />
+
+## Typography
+
+ - heading
+   - letter-spacing: 0.4rem | -0.4rem; based on heading complete uppercase (0.4rem) or lowercase(-0.4rem)
+   - font-size: clamp(2rem, 8vw, 6rem);
+   - line-height: 1.1; when working with H1 - H6 headings | gap vertically between lines
+
+ - paragraph
+   - max-width: 50ch; ch - characters | must be between 50 to 70 ch
+   - text-wrap: balance;
+    
+ - anchor
+   - text-decoration-color: if text color is dark then choose this as light a bit
+   - text-decoration-thickness: 2px;
+   - text-underline-offset: 4px;
