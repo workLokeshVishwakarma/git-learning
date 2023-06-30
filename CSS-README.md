@@ -149,6 +149,7 @@
    - letter-spacing: 0.4rem | -0.4rem; based on heading complete uppercase (0.4rem) or lowercase(-0.4rem)
    - font-size: clamp(2rem, 8vw, 6rem);
    - line-height: 1.1; when working with H1 - H6 headings | gap vertically between lines
+   - ![Screenshot 2023-06-30 at 4 56 12 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/1057f860-fd76-4ca6-86f7-9563201647b2)
 
  - paragraph
    - max-width: 50ch; ch - characters | must be between 50 to 70 ch
@@ -158,3 +159,9 @@
    - text-decoration-color: if text color is dark then choose this as light a bit
    - text-decoration-thickness: 2px;
    - text-underline-offset: 4px;
+
+ - [ ol / ul ] - li
+   - ![Screenshot 2023-06-30 at 4 50 56 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/1451d242-4346-40a8-86df-1c5fbe9dc825)
+   - aligh text to text | or :: markerto text | (object to object - rule of thumb)
+
+<hr />
