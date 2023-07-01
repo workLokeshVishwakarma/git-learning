@@ -10,6 +10,7 @@
 - [typography](#Typography)
 - [color-mix-function-and-nested-css](#color-mix-function-and-nested-css)
 - [first-letter-pesudo-element](#first-letter-pesudo-element)
+- [-webkit-background-clip-text](#-webkit-background-clip-text)
 
 <hr />
 
@@ -118,7 +119,7 @@
 
 -X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-
 
- - ![Screenshot 2023-07-01 at 3 47 38 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/39ea0acf-a0ad-4ac4-8c8f-f0817c7fd189)
+ - ![Screenshot 2023-07-01 at 4 06 53 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/a886e328-4c69-418e-bc9c-d8d8eece71f9)
 
  - ![Screenshot 2023-07-01 at 3 47 49 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/eadd6bfa-5109-4369-b3e8-a8936fe92a22)
 
@@ -186,5 +187,13 @@
  - ![Screenshot 2023-06-30 at 7 11 53 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/ae2fa379-f38b-4427-9fde-536c684c91cb)
 
  - ![Screenshot 2023-06-30 at 7 12 07 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/e27e8970-2a7d-427b-86a3-6702529c6050)
+
+<hr />
+
+## `-webkit-background-clip: text;`
+
+ - ![Screenshot 2023-07-01 at 4 04 25 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/67864865-56ed-4453-8196-44966ea4b04e)
+
+ - ![Screenshot 2023-07-01 at 4 04 35 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/7a1ef96c-e11e-4d60-b6f7-85c452979280)
 
 <hr />
