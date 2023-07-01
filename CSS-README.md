@@ -108,13 +108,19 @@
 
 <hr />
 
-##  `line-clamp`
+##  `line-clamp` and `text-overflow: ellipsis;`
 
  - ![Screenshot 2023-06-29 at 1 28 38 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/fa2397a1-465b-4907-ba6a-325d6ce471b2)
  
  - ![Screenshot 2023-06-29 at 1 29 09 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/6659fc22-8f68-4a58-86af-04e7e7287482)
 
  - ![Screenshot 2023-06-29 at 1 30 01 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/16b93615-3a98-45cd-95a1-5aa1f9f51243)
+
+-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-X-
+
+ - ![Screenshot 2023-07-01 at 3 47 38 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/39ea0acf-a0ad-4ac4-8c8f-f0817c7fd189)
+
+ - ![Screenshot 2023-07-01 at 3 47 49 PM](https://github.com/workLokeshVishwakarma/learning-notes/assets/121422811/eadd6bfa-5109-4369-b3e8-a8936fe92a22)
 
 <hr />
 
