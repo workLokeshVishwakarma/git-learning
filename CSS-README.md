@@ -4,7 +4,7 @@
 - [display-block--inline--inline-block--flex--inline-flex](#display-block--inline--inline-block--flex--inline-flex)
 - [css-logical-properties](#css-logical-properties)
 - [css-advance-selectors--pseudo-classes](#css-advance-selectors--pseudo-classes)
-- [line-clamp](#line-clamp)
+- [line-clamp-and-text-overflow-ellipsis](#line-clamp-and-text-overflow-ellipsis)
 - [min--max](#min--max)
 - [writing-mode-text-orientation-and-direction](#writing-mode-text-orientation-and-direction)
 - [typography](#Typography)
