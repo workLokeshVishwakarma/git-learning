@@ -1,9 +1,9 @@
 - [Order List Processing](#order-list-processing)
 - [Data Finder](#data-finder)
-- [Account Transactions](#weekday-text)
-- [Joined Logger](#strip-property)
-- Strip Property
-- Weekday Text
+- Account Transactions
+- Joined Logger
+- [Strip Property](#strip-property)
+- [Weekday Text](#weekday-text)
 - Activity List
 - Champions League Teams
 - Image Cloning
