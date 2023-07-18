@@ -1,6 +1,7 @@
+- [Order List Processing](#order-list-processing)
 - [Data Finder](#data-finder)
-- Account Transactions
-- Joined Logger
+- [Account Transactions](#weekday-text)
+- [Joined Logger](#strip-property)
 - Strip Property
 - Weekday Text
 - Activity List
@@ -8,12 +9,14 @@
 - Image Cloning
 - Parking Lot
 - User Transactions
-- Notes Store
+- [Notes Store](#notes-store)
 - Staff List
 - Employee Inheritance
 - Last and Second-last
 - Restocking the Warehouse
 - Reductor Array
+- [Step Counter](#step-counter)
+- [Fizz Buzz](#fizz-buzz)
 
 <hr />
 
@@ -52,7 +55,7 @@ function dataFinder(data) {
 ```
 
 
-### JavaScript Weekday Text
+### Weekday Text
 
 ```javascript
 function weekdayText(weekdays) {
