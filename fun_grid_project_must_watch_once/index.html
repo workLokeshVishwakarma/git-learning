@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .container {
+        display: grid;
+        grid-template-columns: repeat(3, 100px);
+        grid-template-rows: repeat(2, 100px);
+        grid-auto-flow: row;
+        grid-auto-columns: 50px;
+        grid-auto-rows: 100px;
+        padding: 10px;
+        gap: 15px;
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+        transition: all 1s;
+      }
+      .child {
+        background: var(--bg);
+        color: white;
+        font-weight: 900;
+        display: grid;
+        place-items: center;
+        font-size: 18px;
+        background-position: center;
+        background-size: cover;
+      }
+      .child:nth-child(2) {
+        grid-area: 2 / 1 / 4 / 2;
+      }
+      .child:nth-child(5) {
+        grid-area: 3 / 2 / 4 / 4;
+      }
+      .child:nth-child(6) {
+        grid-area: 1 / 1 / 2 / 3;
+      }
+      .animate {
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+      }
+    </style>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container"></div>
+    <script>
+      setTimeout(
+        () => document.querySelector(".container").classList.add("animate"),
+        1000
+      );
+
+      const times = 6;
+      const imgs = [
+        "./alice-alinari-CTlRkofxgRY-unsplash.jpg",
+        "./alice-alinari-XNqoVXDUAts-unsplash.jpg",
+      ];
+      const container = document.querySelector(".container");
+      const generate = () => {
+        container.innerHTML = "";
+
+        const rndmIndForImgs = [];
+
+        for (let j = 0; j < imgs.length; j++) {
+          let rndmInd = Math.trunc(Math.random() * times);
+          if ([...rndmIndForImgs, 0].includes(rndmInd)) {
+            while ([...rndmIndForImgs, 0].includes(rndmInd)) {
+              rndmInd = Math.trunc(Math.random() * times);
+            }
+          }
+          rndmIndForImgs.push(rndmInd);
+        }
+
+        let iForImgBgRndm = -1;
+
+        for (let i = 1; i <= times; i++) {
+          const randomhax = Math.random() * 0xffffff;
+          let randomColor = Math.floor(randomhax).toString(16);
+          const bg = rndmIndForImgs.includes(i)
+            ? `url(${imgs[++iForImgBgRndm]})`
+            : `#${randomColor.length < 6 ? `${randomColor}1` : randomColor}`;
+          const html = `<div class="child" style="--bg: ${bg}">${i}</div>`;
+          container.insertAdjacentHTML("beforeend", html);
+        }
+      };
+
+      generate();
+
+      document.addEventListener("keyup", (e) => e.keyCode == 82 && generate());
+    </script>
+  </body>
+</html>
